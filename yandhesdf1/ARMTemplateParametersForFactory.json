@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "yandhesdf1"
+		},
+		"ls_AzureDataLakeStorage1_output_accountKey": {
+			"value": ""
+		},
+		"ls_AzureSqlDatabase1_password": {
+			"value": ""
+		},
+		"ls_AzureDataLakeStorage1_output_properties_typeProperties_url": {
+			"value": "https://yandhessqlstorage.dfs.core.windows.net/"
+		},
+		"ls_AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "customer360.database.windows.net"
+		},
+		"ls_AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "db"
+		},
+		"ls_AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "santosh"
+		},
+		"ls_http_order_dataset_properties_typeProperties_url": {
+			"value": "https://files.cdn.thinkific.com"
+		}
+	}
+}
