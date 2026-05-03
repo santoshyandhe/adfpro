@@ -1,0 +1,12 @@
+{
+	"name": "ls_AzureDataLakeStorage1_output",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://yandhessqlstorage.dfs.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEUyREI2MDc5LUE0NEEtNEM0My04N0ZGLTRENDczNkQwNjA4Q182YTM1ZmY2Mi1iOGVjLTQ3MDAtYTgxZS02MjcyNzc2YWE0OGIiDQp9"
+		}
+	}
+}

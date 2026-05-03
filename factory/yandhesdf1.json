@@ -1,0 +1,15 @@
+{
+	"name": "yandhesdf1",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3b226074-0f0e-4bd2-9eb8-d60d4956c09b",
+		"tenantId": "805663e5-02ac-4dd6-baae-d31b81934386"
+	}
+}
