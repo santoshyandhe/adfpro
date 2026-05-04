@@ -90,7 +90,7 @@
 				]
 			},
 			{
-				"name": "Ttaolresults",
+				"name": "Totalresults",
 				"type": "Script",
 				"dependsOn": [
 					{
