@@ -124,6 +124,25 @@
 					],
 					"scriptBlockExecutionTimeout": "02:00:00"
 				}
+			},
+			{
+				"name": "if New Rows",
+				"type": "IfCondition",
+				"dependsOn": [
+					{
+						"activity": "Totalresults",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"userProperties": [],
+				"typeProperties": {
+					"expression": {
+						"value": "@greater(activity('Totalresults').output.resultSets[0].rows[0].total_count,0 )",
+						"type": "Expression"
+					}
+				}
 			}
 		],
 		"parameters": {
